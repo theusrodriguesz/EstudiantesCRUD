@@ -15,7 +15,7 @@ public class Input {
     public static int obtenerInt(String mensaje) {
         System.out.print(mensaje);
         while (!scanner.hasNextInt()) {
-            System.out.println("Por favor, introduce un número válido.");
+            System.out.println("Por favor, introduce un número válido. ");
             scanner.next();
             System.out.print(mensaje);
         }
