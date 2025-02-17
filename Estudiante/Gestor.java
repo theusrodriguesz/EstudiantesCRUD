@@ -7,7 +7,7 @@ public class Gestor {
         estudianteCRUD = new EstudianteCRUD();
     }
 
-    public EstudianteCRUD getEstudianteCRUD() {
+    public EstudianteCRUD getEstudianteCRUD(){
         return estudianteCRUD;
     }
 }
