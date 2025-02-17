@@ -5,7 +5,7 @@ public class Validador {
         return id > 0;
     }
 
-    public static boolean validarNota(double nota) {
+    public static boolean validarNota(double nota)g{
         return nota >= 0 && nota <= 10;
     }
 }
