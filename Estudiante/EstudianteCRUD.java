@@ -68,7 +68,7 @@ public class EstudianteCRUD {
             Estudiante estudiante = iterator.next();
             if (estudiante.getId() == id) {
                 iterator.remove();
-                System.out.println("Estudiante eliminado exitosamente.");
+                System.out.println("Estudiante eliminado exitosamente...");
                 return;
             }
         }
