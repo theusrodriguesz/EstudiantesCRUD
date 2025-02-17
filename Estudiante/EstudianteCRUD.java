@@ -59,7 +59,7 @@ public class EstudianteCRUD {
                 }
             }
         }
-        System.out.println("Estudiante o asignatura no encontrado.");
+        System.out.println("Estudiante o asignatura no encontrado ...");
     }
 
     public void eliminarEstudiante(int id) {
