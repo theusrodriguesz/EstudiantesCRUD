@@ -58,7 +58,7 @@ public class EstudiantesApp {
                     break;
 
                 case 5:
-                    System.out.println("¡Adiós!");
+                    System.out.println("¡Adiós! ");
                     break;
 
                 default:
